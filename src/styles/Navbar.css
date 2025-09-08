@@ -1,6 +1,6 @@
 .navbar{
-    background-color: #fff;
-    z-index: 999;
+    background-color: #1857e0ea;
+   /* z-index: 999;
     position: fixed;
     width: 100%;
     display: grid;
@@ -14,15 +14,18 @@
 }
 
 .navbar__logo{
+    display: grid;
+    place-items: center;
+    height: 10vh;
     
 
 }
 
 .navbar__logo h2{
-    font-family: 'Whisper', cursive;
+    font-family: 'Times New Roman', cursive;
     font-weight: bolder;
-    font-size: 2.2rem;
-    color: rgb(236, 127, 32);
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }
 
@@ -72,12 +75,14 @@
 .navbar__search .search-input{
     width: 0px;
     border: none;
+    border-radius: 10px;
 }
 
 .navbar__search .search-input:focus{
     width: 200px;
     outline: none;
     border-bottom: 2px solid #000;
+    border-radius: 10px 10px;
 }
 
 .navbar__search .search-icon{
@@ -89,4 +94,5 @@
     width: 200px;
     transition: width 1s ease-in-out;
     border-bottom: 1.5px solid #000;
+    border-radius: 10px 10px;
 }
