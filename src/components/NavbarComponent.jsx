@@ -30,7 +30,7 @@ const NavbarComponent = () => {
                 <p className={active === 'General' ? 'active' : ''} onClick={()=> {setActive("General"); navigate("/category/general")}}>General</p>
                 <p className={active === 'Technology' ? 'active' : ''} onClick={()=> {setActive("Technology"); navigate("/category/technology")}}>Technology</p>
                 <p className={active === 'Politics' ? 'active' : ''} onClick={()=> {setActive("Politics"); navigate('/category/politics')}}>Politics</p>
-                <p className={active === 'Health' ? 'active' : ''} onClick={()=> {setActive("Health"); navigate("/category/health")}}>Health</p>
+                <p className={active === 'Sports' ? 'active' : ''} onClick={()=> {setActive("Sports"); navigate("/category/ sports")}}>Sports</p>
                 <p className={active === 'Art & Culture' ? 'active' : ''} onClick={()=> {setActive("Art & Culture"); navigate("/category/art&culture")}}>Art & Culture</p>
             </div>
             <div className="navbar__search">
