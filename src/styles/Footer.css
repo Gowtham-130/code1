@@ -1,5 +1,5 @@
 footer{
-    background-color: rgb(35, 35, 35);
+    background-color: rgb(1, 47, 68);
 }
 
 .footer{
@@ -17,13 +17,13 @@ footer{
 }
 
 .footer ul li{
-    color: rgb(133, 133, 133);
+    color: rgb(255, 255, 255);
     list-style: none;
     cursor: pointer;
 }
 
 .footer ul li:hover{
-    color: aliceblue;
+    color:burlywood;
     transform: scaleX(1.1);
     transition: 0.5s ease-in-out;
 }
